@@ -42,6 +42,10 @@ body h1, body h2,body h3, body h4, body h5, body h6{
     max-width: 100% !important;
 }	
 
+body button:focus{
+    outline: unset;
+}
+
 body h1{
 	font-size: 50px;
 	font-weight: 500;
@@ -575,7 +579,7 @@ aside.widget-area{
      .btn-accordion:after{
 	    content: "";
 	    display: inline-block;
-	    background-image: url(http://localhost/https:/jovajova.github.io/bookmark-landing-page/wp-content/themes/twentytwentyone-child/assets/images/icon-arrow.svg);
+	    background-image: url(https://jovajova.github.io/bookmark-landingpage2/wp-content/themes/twentytwentyone-child/assets/images/icon-arrow.svg);
 	    height: 20px;
 	    width: 20px;
 	    background-size: contain;
@@ -587,7 +591,7 @@ aside.widget-area{
      .btn-accordion.active:after{
      	content: '';
      	display: inline-block;
-     	background-image: url(http://localhost/https:/jovajova.github.io/bookmark-landing-page/wp-content/themes/twentytwentyone-child/assets/images/icon-arrow-up.svg);
+     	background-image: url(https://jovajova.github.io/bookmark-landingpage2/wp-content/themes/twentytwentyone-child/assets/images/icon-arrow-up.svg);
      	transform: rotate(180deg);
      }
 

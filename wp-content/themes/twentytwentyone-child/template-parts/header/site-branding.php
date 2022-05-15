@@ -20,10 +20,10 @@ $header_class = $show_title ? 'site-title' : 'screen-reader-text';
 
 <div class="site-branding content-area">
 	<div class="blp-row">
-		<div class="blp-col-5 blp-col-xs-6">
+		<div class="blp-col-4 blp-col-md-3 blp-col-xs-6">
 			<img src="<?php echo site_url();?>/wp-content/themes/twentytwentyone-child/assets/images/logo-bookmark.svg" width="150px" height="auto">
 		</div>
-		<div class="blp-col-7 blp-col-xs-6">
+		<div class="blp-col-8 blp-col-md-9 blp-col-xs-6">
 			<div class="menu-desktop">
 				<?php
 				add_theme_support( 'menus' );
