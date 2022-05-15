@@ -39,7 +39,7 @@
 							<?php
 							wp_nav_menu(
 							  array(
-							    'menu' => 'main-menu',
+							    'menu' => 'footer-menu',
 							    'link_before' => '<span class="menu-list-item">',
 							    'link_after' => '</span>',
 							  )
